@@ -23,21 +23,21 @@ module.exports = {
 
         browser
 
-            .url('https://supremenewyork.com/shop/all/t-shirts')
+            .url('https://supremenewyork.com/shop/all/bags')
             
             
            // .waitForElementVisible('#wrap')
            // .assert.visible('#wrap')
           
             .useXpath()
-            .click("//*[contains(text(), 'Bite')]")
+            .click("//*[contains(text(), 'Duffle Bag')]")
             // FOR BOX LOGO USE THIS
             //.click(" [contains(text(), 'Box Logo')]")  
             .useCss()
             
+            .waitForElementVisible('#add-remove-buttons')
             
-            
-            .click('#ard-rrmove-brttons .button')
+            .click('#add-remove-buttons .screen-reader-only .button')
             //.pause(900)
             //.saveScreenshot('tests_output/Suprema.png')
             
@@ -91,13 +91,28 @@ module.exports = {
 
            // .click('input[type=checkbox')
              .pause(2000)
+             // submit order
             // wait for captcha
             // solve captcha
+            .saveScreenshot('tests_output/SupremeCheckout')
 
+           //  PROCESS PAYMENT, DON'T UNDO COMMENT UNLESS READY
+          //  .click('input[value="process payment"]')
         
              
-            
-             
+           
+           browser.element('css selector', 'Thank you', function(result){
+
+                if (result.status != -1){
+                    console.log("Order submitted, check email")
+                }
+                else{
+                    console.log(" Do captcha and click Process Payment")
+                }
+
+
+           })
+           
              .pause(7000)
             .end();
         

@@ -53,6 +53,8 @@ module.exports = {
        // .pause(5000)
         .click('.question-hyperlink') //Click on the 5th question
         .pause(3000)
+        .assert.visible('#nav-users')
+        .click('#nav-users')
         .moveToElement('.js-site-switcher-button', 15, 15) //move to top-right menu button
         .pause(1000)
         .click('.js-site-switcher-button') // Click on menu button
