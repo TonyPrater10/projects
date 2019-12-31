@@ -13,8 +13,8 @@ module.exports = {
            .saveScreenshot('tests_output/ESPN.png')
            .click('#global-nav > ul > li.sports.menu-nba.hover > div > ul:nth-child(2) > li > div > ul:nth-child(3) > li:nth-child(6) > a')
             //.click('#global-nav .pillar.more-espn')
-            .assert.titleContains('ESPN: Serving sports fans. Anytime. Anywhere.')
-            .click('a[data-teamid="27"]')
+            .assert.titleContains('Washington Wizards Basketball - Wizards News, Scores, Stats, Rumors & More - ESPN.')
+            //.click('a[data-teamid="27"]')
             .end()
 
 

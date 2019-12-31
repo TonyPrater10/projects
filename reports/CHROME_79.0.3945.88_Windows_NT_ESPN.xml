@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="ESPN"
+    errors="0" failures="1" hostname="" id="" package="ESPN" skipped="0"
+    tests="1" time="18.21" timestamp="">
+  
+    <testcase name="ESPN" classname="ESPN" time="18.21" assertions="3">
+
+    
+
+      <failure message="Testing if the page title contains [0;33m&#39;Washington Wizards Basketball - Wizards News, Scores, Stats, Rumors &amp; More - ESPN.&#39;[0m in 5000ms - expected [0;32m&#34;contains &#39;Washington Wizards Basketball - Wizards News, Scores, Stats, Rumors &amp; More - ESPN.&#39;&#34;[0m but got: [0;31m&#34;Washington Wizards Basketball - Wizards News, Scores, Stats, Rumors &amp; More - ESPN&#34;[0m [0;90m(5192ms)[0m">    at Object.ESPN (C:\Users\hipho_000\testing\tests\ESPN.js:16:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.ESPN (C:\Users\hipho_000\testing\tests\ESPN.js:16:21)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

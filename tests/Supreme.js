@@ -37,7 +37,7 @@ module.exports = {
             
             .waitForElementVisible('#add-remove-buttons')
             
-            .click('#add-remove-buttons .screen-reader-only .button')
+            .click('#add-remove-buttons > input')
             //.pause(900)
             //.saveScreenshot('tests_output/Suprema.png')
             
