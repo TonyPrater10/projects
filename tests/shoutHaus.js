@@ -20,7 +20,7 @@ module.exports =
       //  const submitButtonSelector='input[name="create"]';
         page
         .navigate()
-        .url("https://shout.haus/registration.php")
+        
         .FillIn(formField1)
         .FillIn(formField2)
         .FillIn(formField3)
