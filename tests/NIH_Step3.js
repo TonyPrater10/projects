@@ -41,7 +41,7 @@ module.exports = {
             browser.switchWindow()
             .setvalue('#tcomments', 'Return to RO')
             .click('#btnButton1')
-            .pause(10)
+            .pause(10000)
             
        }
 
@@ -64,7 +64,7 @@ module.exports = {
            .useCss()
            .setValue("'#tcomments', 'Medical Officer Review'")
            .click('#btnButton3')
-           .pause(10)
+           .pause(10000)
         
     },
 
@@ -84,7 +84,7 @@ module.exports = {
            .useCss()
            .setValue("'#tcomments', 'Return to RO'")
            .click('#btnButton1')
-           .pause(10)
+           .pause(10000)
     },
 
     
@@ -104,7 +104,7 @@ module.exports = {
            .useCss()
            .setValue("'#tcomments', 'ORA Chief Review'")
            .click('#btnButton4')
-           .pause(10)
+           .pause(10000)
     },
 
     
@@ -124,7 +124,7 @@ module.exports = {
            .useCss()
            .setValue("'#tcomments', 'Return to RO'")
            .click('#btnButton1')
-           .pause(10)
+           .pause(10000)
     },
 
     'Step 6'(browser){
@@ -143,7 +143,7 @@ module.exports = {
            .useCss()
            .setValue("'#tcomments', 'Negotiation Complete'")
            .click('#btnButton1')
-           .pause(10)
+           .pause(10000)
     }
 
     

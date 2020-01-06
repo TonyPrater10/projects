@@ -14,7 +14,7 @@ module.exports = {
             .click('#dd_1_1_5_1 option[va6ue="16400079"]')
             .setValue("'#tcomments', 'Initiated by Katalon'")
             .click('#btnButton1')
-            .pause(10)
+            .pause(10000)
             .close()
             .pause(200)
     
@@ -35,7 +35,7 @@ module.exports = {
                     browser.switchWindow()
                     .setValue('#tcomments', 'Send to RO')
                     .click('#btnButton1')
-                    .pause(10)
+                    .pause(10000)
                     .close()
 
                 }
