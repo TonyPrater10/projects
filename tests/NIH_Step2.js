@@ -1,8 +1,8 @@
 module.exports = {
-    '@tags':['NIH'],
-    'NIH Test'(browser){
+    '@tags':['NIH_Step2'],
+    'RO, TTIPO, Medical, ORA Draft Assignments'(browser){
         browser
-        .url()
+        .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
             .setValue('input[id="otds_username"]', ['testlivelink3'])
             .setValue('input[id="otds_password"]', ['Password20191010'])
@@ -27,7 +27,7 @@ module.exports = {
         },
     'NIH Step 2' (browser){
         browser
-            .url()
+            .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso') // NoSSO URL
             .setValue('input[id="otds_username"]', ['testlivelink4'])
             .setValue('input[id="otds_password"]', ['Password20191010'])
             .click('input[id="loginbutton"]')
@@ -44,7 +44,7 @@ module.exports = {
         },
     'NIH Step 3' (browser){
         browser
-            .url()
+            .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso') //NoSSOURL
             .setValue('input[id="otds_username"]', ['testlivelink3'])
             .setValue('input[id="otds_password"]', ['Password20191010'])
             .click('input[id="loginbutton"]')
@@ -63,7 +63,7 @@ module.exports = {
     
     'NIH Step 4' (browser){
         browser
-            .url()
+            .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso') //NoSSOURL
             .url()
             .setValue('input[id="otds_username"]', ['testlivelink6'])
             .setValue('input[id="otds_password"]', ['Password20191010'])

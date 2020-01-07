@@ -2,7 +2,7 @@ module.exports = {
     '@tags':['NIH_Step7'],
     'QA Update Metadata'(browser){
         browser
-        .url()
+        .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
         .setvalue('#otds_password', 'Password20201010')
         .click('input[id="loginbutton"]')
@@ -29,7 +29,7 @@ module.exports = {
             .useCss()
             .setValue('input[id="_1_1_12_1"]', 'Expires 9/20')
             .setValue('input[id="_1_1_15_1"]', 'Publish immediately')
-            .setValue('textarea[id="_1_1_13_1"]', 'Enterr noted here')
+            .setValue('textarea[id="_1_1_13_1"]', 'Enterr notes here')
             .setValue('textarea[id="tcomments"]', 'Workflow complete')
             .click('#btnButton1')
             .pause(10000)

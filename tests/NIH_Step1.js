@@ -1,8 +1,8 @@
 module.exports = {
-    '@tags': ['GenerateAgreement'],
-    'AgreementTest'(browser){
+    '@tags': ['NIH_Step1'],
+    'GenerateAgreements'(browser){
         browser
-            .url()
+            .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll/open/daitctadashboard')
             .useXpath()
             .click("//a[contains(text(),'New Agreement')]")
             .useCss()
@@ -24,7 +24,7 @@ module.exports = {
         'Step 2' (browser){
 
             browser
-                .url()
+                .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll/open/daitctadashboard')
                 .useXpath()
                 .click("//a[contains(text(),'Initiate Agreement Generation Process')]")
 

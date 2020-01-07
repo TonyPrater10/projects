@@ -2,7 +2,7 @@ module.exports = {
     '@tags':['NIH_Step6'],
     'QA Prepare, DAIT Sign, Send'(browser){
         browser
-            .url()
+            .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .setvalue('#otds_username', 'testlivelink3')
             .setvalue('#otds_password', 'Password20201010')
             .click('input[id="loginbutton"]')
@@ -22,6 +22,7 @@ module.exports = {
 
     'NIH Step 6.2'(browser){
         browser
+        .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink7')
         .setvalue('#otds_password', 'Password20201010')
         .click('input[id="loginbutton"]')
@@ -39,6 +40,7 @@ module.exports = {
 
     'NIH Step 6.3'(browser){
         browser
+        .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
         .setvalue('#otds_password', 'Password20201010')
         .click('input[id="loginbutton"]')
@@ -66,7 +68,7 @@ module.exports = {
 
     'NIH Step 6.4'(browser){
         browser
-        .url()
+        .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
         .setvalue('#otds_password', 'Password20201010')
         .click('input[id="loginbutton"]')
@@ -91,8 +93,8 @@ module.exports = {
 
     'NIH Step 6.5'(browser){
         browser
-            .url()
-            .setvalue('#otds_username', 'testlivelink1')
+        .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
+        .setvalue('#otds_username', 'testlivelink1')
         .setvalue('#otds_password', 'Password20201010')
         .click('input[id="loginbutton"]')
         .useXpath()

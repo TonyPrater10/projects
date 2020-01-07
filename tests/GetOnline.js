@@ -2,8 +2,8 @@ module.exports = {
 
     '@tags':['GetOnline'],
     'GetOnline' : function(browser){
-        // this tests will test whether the user is online or offline
-        //If online, do do nothing: the user is connected
+        // this test will test whether the user is online or offline
+        //If online, do nothing; the user is connected
         // If offline, the browser will connect by clicking Accept button
 
         browser
@@ -21,9 +21,13 @@ module.exports = {
                 }
                 else{
                    console.log('Connecting to internet...')
-                   browser.click('input[value="Accept"]')
-                  browser .pause(1000)
+
+                   browser
+                    .moveToElement('input[value="Accept"], 10, 10') // scrll element int view
+                    .click('input[value="Accept"]')
+                    .pause(1000)
                    console.log('Connected!, browse the Internet')
+                   browser.click()
 
 
                 }
