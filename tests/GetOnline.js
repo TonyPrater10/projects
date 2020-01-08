@@ -23,7 +23,7 @@ module.exports = {
                    console.log('Connecting to internet...')
 
                    browser
-                    .moveToElement('input[value="Accept"], 10, 10') // scrll element int view
+                   // .moveToElement('input[type="button"]',15,15) // scrll element int view
                     .click('input[value="Accept"]')
                     .pause(1000)
                    console.log('Connected!, browse the Internet')
