@@ -1,10 +1,10 @@
 # Nightwatch Automation
 
-In this project we are using Nightwatch to perform end-to-end testing.
+In this project, we are using Nightwatch to perform end-to-end testing.
 
 ## Installation
 
-Download your favorite IDE. In this case I'm using [Microsoft VS Code](https://code.visualstudio.com/download).
+Download your favorite IDE. In this case, I'm using [Microsoft VS Code](https://code.visualstudio.com/download).
 
 Install [git](https://git-scm.com/) for version control
 
@@ -15,7 +15,7 @@ Open a new empty folder (File -> New Folder) and give it a name (e.g. tests).
 
 Open the terminal using View -> Terminal or Ctrl + `
 
-## In the terminal....
+## In the terminal...
 
 Use git to initialize a repository
 
@@ -29,7 +29,7 @@ Use npm to create a packages.json file
 npm init -y
 ```
 
-In packages.json replace the entire "no test specified" line with "nightwatch", remvoing quotes.
+In packages.json replace the entire "no test specified" line with "nightwatch", removing quotes.
 
 
 
@@ -43,7 +43,7 @@ npm install nightwatch --save-dev
 
 ## Outside of the terminal...
 
-Creata a configuration file called nightwatch.conf.js (Right click -> New file)
+Create a configuration file called nightwatch.conf.js (Right-click -> New file)
 
 Copy the contents of [Nightwatchjs Configuration](https://nightwatchjs.org/gettingstarted/configuration/) into nightwatch.conf.js
 
@@ -87,7 +87,7 @@ or "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
 
 ```
 
-If using Mac, move onto next step
+If using Mac, move onto the next step
 
 
 
@@ -115,7 +115,7 @@ browser
 }
 ```
 
-Every javascript test file must start with module.exports{} and have a browser object (browser or client, whichever you preffer)
+Every javascript test file must start with module.exports{} and have a browser object (browser or client, whichever you prefer)
 
 Frequently refer to the [NightwathJS Commands](https://nightwatchjs.org/api/commands/) page to view commands you can do
 
@@ -125,7 +125,7 @@ For example,
 
 2. browser.pause(2500) pauses the test for 2500 milliseconds
 
-3. browser.setValue(searchFiller, searchTerms) sets the search bar (I named it searchFIller) with the term I want to search for (Node.js)
+3. browser.setValue(searchFiller, searchTerms) sets the search bar (I named it searchFiller) with the term I want to search for (Node.js)
 
 4. browser.keys(browser.Keys.ENTER) presses the ENTER key on the keyboard (i.e. submits the form)
 
@@ -148,10 +148,10 @@ npm test -> Press Enter Key
 
 
 ## Contributing
-1. Fork the Project
+1. Fork the project
 2. Create a new branch (git checkout -b NewBranch)
-3. Commit your Changes (git commit -m 'added some tests')
-4. Push to the Branch (git push origin projects)
+3. Commit your changes (git commit -m 'added some tests')
+4. Push to the branch (git push origin projects)
 5. Pull requests are welcome
 
 ## License
