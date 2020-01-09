@@ -10,6 +10,7 @@ browser
     .pause(2500)
     .setValue(searchFiller, searchTerms)
     .keys(browser.Keys.ENTER)
+    .assert.containsText('.TbwUpd', 'https://nodejs.org')
     .pause(3000)
     }
 }

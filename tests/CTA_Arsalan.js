@@ -12,7 +12,7 @@ module.exports = {
            .click("//a[contains(text(),'Administration')]")
            .click("//a[contains(text(),'DAIT CTA Dashboard')]")
            .click("//a[contains(text(),'New Agreement')]")
-           .click("//select[@id='_1_1_26_1']")
+           .click('#_1_1_26_1 option[value="Clinical Trial Agreement"]')
            .click("(//input[@id='_1_1_20_1'])[2]")
            .useCss()
             .click('#ddCompany_1_1_21_1 option[value="3SBio"]')
@@ -21,8 +21,7 @@ module.exports = {
             .setValue('#_1_1_9_1,', 'NIH')
             .click('#ddCompany_1_1_6_1 option[value="16400079"]')
             .click('#ddProduct_1_1_21_1_24_1 option[value="3553911"]')
-            .setvalue ('#tcomments', 'Arsalan Automation Test')
-            .click('#btnButton1')
+            .setvalue ('#tcomments', 'Arsalan Automation')
 
     }
 }
