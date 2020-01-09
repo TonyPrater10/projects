@@ -130,7 +130,7 @@ For example,
 
 4. browser.keys(browser.Keys.ENTER) presses the ENTER key on the keyboard (i.e. submits the form)
 
-5. browser.assert.containsText('.TbwUpd', 'https://nodejs.org') checks whether the seabheading contains the node.js website link
+5. browser.assert.containsText('.TbwUpd', 'https://nodejs.org') checks whether the subheading class contains the node.js website link
 
 
 Assertions print in the terminal and easily communicate what on the test passed versus what failed
