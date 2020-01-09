@@ -1,6 +1,6 @@
 # Nightwatch Automation
 
-In this project, we are using Nightwatch to perform end-to-end testing.
+In this project, we are using Nightwatch to perform automated end-to-end testing.
 
 ## Installation
 
