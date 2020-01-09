@@ -105,7 +105,7 @@ module.exports=
 
     const searchTerms = "Node.js";
     const searchFiller = 'input[class="gLFyf gsfi"]';
-    
+
     browser
         .url('https://google.com')
         .pause(2500)
@@ -118,7 +118,7 @@ module.exports=
 
 Every javascript test file must start with module.exports{} and have a browser object (browser or client, whichever you prefer)
 
-Frequently refer to the [NightwathJS Commands](https://nightwatchjs.org/api/commands/) page to view commands you can do
+Frequently refer to the [Nightwatchjs API Commands](https://nightwatchjs.org/api/commands/) page to view commands you can do
 
 For example,
 
