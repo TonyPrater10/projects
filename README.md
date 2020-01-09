@@ -120,13 +120,17 @@ Every javascript test file must start with module.exports{} and have a browser o
 Frequently refer to the [NightwathJS Commands](https://nightwatchjs.org/api/commands/) page to view commands you can do
 
 For example,
-```bash
-browser.url(https://google.com) tells the browser to navigate to google. You can use any website you want to test 
-browser.pause(2500) pauses the test for 2500 milliseconds
-browser.setValue(searchFiller, searchTerms) sets the search bar (I named it searchFIller) with the term I want to search for (Node.js)
-browser.keys(browser.Keys.ENTER) presses the ENTER key on the keyboard (i.e. submits the form)
-browser.assert.containsText('.TbwUpd', 'https://nodejs.org') checks whether the seabheading contains the node.js website link
-```
+
+1. browser.url(https://google.com) tells the browser to navigate to google. You can use any website you want to test 
+
+2. browser.pause(2500) pauses the test for 2500 milliseconds
+
+3. browser.setValue(searchFiller, searchTerms) sets the search bar (I named it searchFIller) with the term I want to search for (Node.js)
+
+4. browser.keys(browser.Keys.ENTER) presses the ENTER key on the keyboard (i.e. submits the form)
+
+5. browser.assert.containsText('.TbwUpd', 'https://nodejs.org') checks whether the seabheading contains the node.js website link
+
 
 Assertions print in the terminal and easily communicate what on the test passed versus what failed
 
