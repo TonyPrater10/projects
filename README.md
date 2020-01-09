@@ -149,10 +149,10 @@ npm test -> Press Enter Key
 
 ## Contributing
 1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+2. Create a new branch (git checkout -b NewBranch)
 3. Commit your Changes (git commit -m 'added some tests')
 4. Push to the Branch (git push origin projects)
-5. Open a Pull Request
+5. Pull requests are welcome
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
