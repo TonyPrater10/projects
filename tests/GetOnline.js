@@ -27,7 +27,7 @@ module.exports = {
                     .click('input[value="Accept"]')
                     .pause(1000)
                    console.log('Connected!, browse the Internet')
-                   browser.click()
+                   
 
 
                 }

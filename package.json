@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "test:browserstack": "nightwatch -c nightwatch.browserstack.conf.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,9 @@
     "nightwatch": "^1.3.2"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
+    "geckodriver": "^1.19.1",
     "handlebars": "^4.5.3",
     "nightwatch-html-reporter": "^2.0.6",
     "path": "^0.12.7"
