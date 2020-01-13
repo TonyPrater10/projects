@@ -5,3 +5,4 @@ tests_output
 page_objects
 page-objects
 tests
+!tests/CTA_Arsalan.js

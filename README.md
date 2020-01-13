@@ -2,7 +2,15 @@
 
 In this project, we are using Nightwatch to perform automated end-to-end testing.
 
-## Installation
+## Installation - Pick One of 2 Options
+
+Pull from my repository (easiest day) or setup your own test environment (more time)
+  - To pull from my repository copy this entire line (including the period)
+```bash
+git clone https://github.com/TonyPrater10/projects.git .
+```
+
+Or Setup your own:
 
 Download your favorite IDE. In this case, I'm using [Microsoft VS Code](https://code.visualstudio.com/download).
 
