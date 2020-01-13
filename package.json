@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "nightwatch",
-    "test:browserstack": "nightwatch -c nightwatch.browserstack.conf.js"
+    "test:browserstack": "nightwatch -c nightwatch.browserstack.conf.js",
+    "googletest": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^78.0.1",
-    "nightwatch": "^1.3.2"
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "nightwatch": "^1.3.2",
+    "nightwatch-api": "^3.0.1"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

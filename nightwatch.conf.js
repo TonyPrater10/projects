@@ -4,7 +4,7 @@ module.exports =
 {
     "src_folders" : ["tests"],
     "output_folder": "reports",
-     "page_objects_path" : ["page_objects"],
+    // "page_objects_path" : ["page_objects"],
 
   
     "webdriver" : {
