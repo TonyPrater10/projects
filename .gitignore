@@ -4,4 +4,4 @@ tests_output
 .env
 page_objects
 page-objects
-tests/
+tests
