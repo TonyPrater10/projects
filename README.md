@@ -144,6 +144,14 @@ For example,
 Assertions print in the terminal and easily communicate what on the test passed versus what failed
 
 
+## Add files to .gitignore file
+
+Create .gitignore file
+
+Add these 3 directories/files into .gitignore
+- node_modules/
+- tests_output
+- *.log
 
 
 ## Usage
