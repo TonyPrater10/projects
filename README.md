@@ -2,7 +2,15 @@
 
 In this project, we are using Nightwatch to perform automated end-to-end testing.
 
-## Installation
+## Installation - Pick One of 2 Options
+
+Pull from my repository (easiest day) or setup your own test environment (more time)
+  - To pull from my repository copy this entire line (including the period)
+```bash
+git clone https://github.com/TonyPrater10/projects.git .
+```
+
+Or Setup your own:
 
 Download your favorite IDE. In this case, I'm using [Microsoft VS Code](https://code.visualstudio.com/download).
 
@@ -136,6 +144,17 @@ For example,
 Assertions print in the terminal and easily communicate what on the test passed versus what failed
 
 
+## Add files to .gitignore file
+
+Create .gitignore file File - > New File
+
+Add these 3 directories/files into .gitignore
+- node_modules/
+- tests_output
+- *.log
+
+Stage all of your changes
+  - Soource control -> 3 dots -> Stage All Changes
 
 
 ## Usage
