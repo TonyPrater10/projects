@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="GetOnline"
-    errors="0" failures="0" hostname="" id="" package="GetOnline" skipped="0"
-    tests="1" time="2.926" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="GetOnline" skipped="0"
+    tests="1" time="8.838" timestamp="">
   
-    <testcase name="GetOnline" classname="GetOnline" time="2.926" assertions="0">
+    <testcase name="GetOnline" classname="GetOnline" time="8.838" assertions="0">
     </testcase>
   
 
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;input[value=&#34;Accept&#34;]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;0087e10a52e06278b3cf300491a978b6&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
   
 
   
