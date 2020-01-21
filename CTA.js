@@ -9,7 +9,6 @@ module.exports = {
 
         const page = browser.page.CTA_Arsalan2();
         
-
         page
             .navigate()
             .login()
@@ -20,8 +19,6 @@ module.exports = {
             .setRandomNum(randomNum)
             .setAgency(agency)
             .makeComment(comment)
-
-
 
     }
 }
