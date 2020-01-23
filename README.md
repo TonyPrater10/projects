@@ -37,7 +37,7 @@ npm init -y
 
 In packages.json replace the entire "no test specified" line with "nightwatch", removing quotes.
 
-
+![image](https://user-images.githubusercontent.com/49885020/73027883-524f3200-3e02-11ea-9582-b6f9878ebd5f.png)
 
 
 
