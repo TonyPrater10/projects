@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password20200101'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://edrms-dev.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso\r\n'</initValue>
+      <name>NoSSOURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://edrms-dev.niaid.nih.gov/livelink/llisapi.dll/open/daitctadashboard'</initValue>
+      <name>DashboardURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://edrms-qa.niaid.nih.gov/'</initValue>
+      <name>SSOURL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
