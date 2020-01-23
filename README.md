@@ -4,13 +4,7 @@ In this project, we are using Nightwatch to perform automated end-to-end testing
 
 ## Installation - Pick One of 2 Options
 
-Pull from my repository (easiest day) or setup your own test environment (more time)
-  - To pull from my repository copy this entire line (including the period)
-```bash
-git clone https://github.com/TonyPrater10/projects.git .
-```
 
-Or Setup your own:
 
 Download your favorite IDE. In this case, I'm using [Microsoft VS Code](https://code.visualstudio.com/download).
 
@@ -25,10 +19,14 @@ Open the terminal using View -> Terminal or Ctrl + `
 
 ## In the terminal...
 
-Use git to initialize a repository
+Use git to initialize a repository and add my repo
 
 ```bash
 git init
+
+git remote add origin https://github.com/TonyPrater10/projects.git
+
+git pull origin projects
 ```
 
 Use npm to create a packages.json file
