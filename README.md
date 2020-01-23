@@ -56,6 +56,7 @@ Copy the contents of [Nightwatchjs Configuration](https://nightwatchjs.org/getti
 
 Your nightwatch.conf.js file should look like:
 ```bash
+module.exports =
 {
   "src_folders" : ["tests"],
 
