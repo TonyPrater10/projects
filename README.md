@@ -160,7 +160,7 @@ Stage all of your changes
 ## Usage
  In the terminal...
 ```
-npm test --tag "Place tag here without quotes (e.g. npm test --tag newTest) -> press Enter Key
+npm test -- --tag "Place tag here without quotes (e.g. npm test -- --tag newTest) -> press Enter Key
 
 To test all tests at the same time:
 npm test -> Press Enter Key
