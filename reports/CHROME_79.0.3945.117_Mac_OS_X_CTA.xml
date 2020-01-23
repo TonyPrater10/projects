@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="CTA"
+    errors="1" failures="0" hostname="" id="" package="CTA" skipped="0"
+    tests="1" time="0.003000" timestamp="">
+  
+    <testcase name="CTA Arsalan" classname="CTA" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: No selector property for element &#34;dropdown2&#34;. Instead found properties: locateStrategy, selector[0m
+[0;90m       at Array.forEach (&lt;anonymous&gt;)
+       at Array.forEach (&lt;anonymous&gt;)
+       at Object.CTA Arsalan (/Users/tonyprater/Documents/Testing/tests/CTA.js:10:35)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

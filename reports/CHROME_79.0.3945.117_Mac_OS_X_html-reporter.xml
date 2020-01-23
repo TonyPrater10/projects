@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="html-reporter"
+    errors="1" failures="0" hostname="" id="" package="html-reporter" skipped="0"
+    tests="1" time="0.002000" timestamp="">
+  
+    <testcase name="write" classname="html-reporter" time="0.002000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;output_folder&#39; of undefined[0m
+[0;90m       at Object.write (/Users/tonyprater/Documents/Testing/html-reporter.js:9:55)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

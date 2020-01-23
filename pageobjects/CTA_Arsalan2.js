@@ -30,16 +30,12 @@ module.exports = {
 
 
 
-        dropdown: {
+        yesNoAgreement: {
             locateStrategy: 'xpath',
             selector: "//input[@id='_1_1_20_1'])[2]"
     },
 
-        dropdown2: {
-            locateStrategy: 'xpath',
-            selector: ""
-
-        },
+     
 
         company: '#ddCompany_1_1_21_1',
         product: '#ddProduct_1_1_21_1_24_1',
@@ -47,7 +43,7 @@ module.exports = {
         randomNum:'#_1_1_10_1',
         agency: '#_1_1_9_1',
         company1:'#ddCompany_1_1_6_1',
-        company2:'#ddProduct_1_1_21_1_24_1',
+        product1:'#ddProduct_1_1_21_1_24_1',
         commments: '#tcomments'
         
 
@@ -76,6 +72,11 @@ module.exports = {
                     .click(`option[value="value="${value}"]`);
             },
 
+            setYesNo(value){
+                return this
+                .setValue('@yesNoAgreement', value);
+            },
+
             selectCompany(selector, value){
                 return this
                 .click(selector)
@@ -86,6 +87,18 @@ module.exports = {
                     return this
                     .click(selector)
                     .click(`option[value="${value}"]`);
+            },
+
+            selectCompany1(){
+                return this
+                .click(selector)
+                .click(`option[value="${value}"]`);
+            },
+
+            selectProduct1(){
+                return this
+                .click(selector)
+                .click(`option[value="${value}"]`);
             },
 
             setRandomNum(value){
