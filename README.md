@@ -181,7 +181,16 @@ npm test -> Press Enter Key
 
 Reports are a visual way of seeing which tests passed vs which failed and any assertions accompanying them
 
+![image](https://user-images.githubusercontent.com/49885020/73094836-69982900-3eaf-11ea-81de-c26edb014fc9.png)
+
+
 ```
 npm install handlebars fs path
 
+npm test -- --tag "Your tag here"
+
+
+
 ```
+
+
