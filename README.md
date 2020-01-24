@@ -175,3 +175,13 @@ npm test -> Press Enter Key
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Set up reports
+
+Reports are a visual way of seeing which tests passed vs which failed and any assertions accompanying them
+
+```
+npm install handlebars fs path
+
+```
