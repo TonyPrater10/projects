@@ -153,7 +153,7 @@ Add these 3 directories/files into .gitignore
 - *.log
 
 Stage all of your changes
-  - Soource control -> 3 dots -> Stage All Changes
+  - Source control -> 3 dots -> Stage All Changes
 
 
 ## Usage
@@ -187,7 +187,7 @@ Reports are a visual way of seeing which tests passed vs which failed and any as
 ```
 npm install handlebars fs path
 
-npm test -- --tag "Your tag here"
+npm test -- --tag "Your tag here" --reporter html-reporter.js
 
 
 
