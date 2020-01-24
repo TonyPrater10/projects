@@ -22,7 +22,10 @@ module.exports =
             'path':'tests_output/screenshots'
           },
         "desiredCapabilities": {
-          "browserName": "chrome"
+          "browserName": "chrome",
+          'chromeOptions': {
+            'args': ['--headless']
+          }
         }
       }
     }
