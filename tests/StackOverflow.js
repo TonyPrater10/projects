@@ -29,7 +29,7 @@ module.exports = {
         .assert.containsText('#question-summary-12135309', 'REST API') // REST API will show in results after searching Automated Testing
         .click('.question-hyperlink') // click question pertaining to REST API
         .saveScreenshot('tests_output/StackOverflow.png') // prints screenshot of page for evidence
-        .click('.-ctas a:nth-child(2)')
+        .click('.-ctas a:nth-child(2)') 
         .pause(2000)
         //Sign up for StackOverflw
         //.url('https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent')

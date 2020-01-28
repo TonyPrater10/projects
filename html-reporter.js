@@ -5,7 +5,8 @@ var handlebars = require('handlebars');
 module.exports = {
   write : function(results, options, done) {
 
-    var reportFilename = options.filename_prefix + (Math.floor(Date.now() / 1000)) + '.html';
+    // var reportFilename = options.filename_prefix + (Math.floor(Date.now() / 1000)) + '.html';
+    var reportFilename = options.filename_prefix + process.argv[3] + '.html'; //process.argv lets us know current script running. run console.log(process.argv) to see current scripts
     var reportFilePath = path.join(__dirname, options.output_folder, reportFilename);
 
     // read the html template
@@ -26,6 +27,7 @@ module.exports = {
       fs.writeFile(reportFilePath, html, function(err) {
         if (err) throw err;
         console.log('Report generated: ' + reportFilePath);
+        //console.log(process.argv[3])
         done();
       });
     });

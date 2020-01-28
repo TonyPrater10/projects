@@ -25,6 +25,5 @@ module.exports = {
             .setRandomNum(randomNum)
             .setAgency(agency)
             .makeComment(comment)
-
     }
 }
