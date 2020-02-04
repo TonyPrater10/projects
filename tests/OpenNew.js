@@ -1,5 +1,5 @@
 module.exports = {
-
+    '@disabled': true,
     '@tags':['OpenNew'],
     'Open New' : function(browser){
         

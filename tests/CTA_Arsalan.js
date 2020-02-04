@@ -1,4 +1,5 @@
 module.exports = {
+    '@disabled': true,
     '@tags':['CTA_Arsalan'],
     'CTA Arsalan': function (browser){
         browser

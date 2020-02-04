@@ -1,7 +1,8 @@
 
 module.exports = {
+     '@disabled': true,
     '@tags':['NIH_Step4'],
-    'QA Review, RO Update, QA Approve'(browser){
+    'QA Review, RO Update, QA Approve':function(browser){
 
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
@@ -31,7 +32,7 @@ module.exports = {
 
     },
     
-    'Step 2'(browser){
+    'Step 2':function(browser){
 
         browser 
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
@@ -55,7 +56,7 @@ module.exports = {
 
     }  ,
     
-    'Step 4.3'(browser){
+    'Step 4.3':function(browser){
 
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
@@ -85,7 +86,7 @@ module.exports = {
 
     },
 
-    'Step 4.4'(browser){
+    'Step 4.4':function(browser){
 
         browser 
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
@@ -108,7 +109,7 @@ module.exports = {
 
     },
 
-    'Step 4.5'(browser){
+    'Step 4.5':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')    
             .useXpath()

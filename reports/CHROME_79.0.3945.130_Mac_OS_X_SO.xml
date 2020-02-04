@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="2"
+            failures="1"
             tests="1">
 
   <testsuite name="SO"
-    errors="0" failures="0" hostname="" id="" package="SO" skipped="0"
-    tests="1" time="3.761" timestamp="">
+    errors="2" failures="1" hostname="" id="" package="SO" skipped="0"
+    tests="1" time="182.5" timestamp="">
   
-    <testcase name="new SO" classname="SO" time="3.761" assertions="1">
-
+    <testcase name="new SO" classname="SO" time="182.5" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@questionHyperlink]&gt;[0m contains text [0;33m&#39;REST Api&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;REST Api&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5154ms)[0m">    at Object.new SO (/Users/tonyprater/Documents/Testing/tests/SO.js:16:21)</failure>
+<system-out>[[ATTACHMENT|/Users/tonyprater/Documents/Testing/tests_output/screenshots/SO/new-SO_FAILED_Feb-04-2020-120012-GMT-0500-(Eastern-Standard.png]]</system-out>
     
     </testcase>
   
 
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@hotTab]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;41f1148f64ff90afa1b91abc8b1b81da&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@questionHyperlink]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;41f1148f64ff90afa1b91abc8b1b81da&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
   
 
   

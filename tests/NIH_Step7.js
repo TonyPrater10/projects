@@ -1,6 +1,7 @@
 module.exports = {
+    '@disabled': true,
     '@tags':['NIH_Step7'],
-    'QA Update Metadata'(browser){
+    'QA Update Metadata':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
@@ -15,7 +16,7 @@ module.exports = {
         .useCss()
     try{
         browser
-            .accpetAlert()
+            .acceptAlert()
             .click('input[name="IgnoreMe"]')
     }
     

@@ -61,7 +61,7 @@
       <td colspan="3" title="CHROME 79.0.3945.130 Mac OS X "><strong>Browser:</strong> CHROME 79.0.3945.130 Mac OS X </td>
     </tr>
     <tr class="overview">
-      <td colspan="3"><strong>Timestamp:</strong> Thu Jan 30 2020 11:52:34 GMT-0500 (Eastern Standard Time)</td>
+      <td colspan="3"><strong>Timestamp:</strong> Thu Jan 30 2020 11:51:15 GMT-0500 (Eastern Standard Time)</td>
     </tr>
     <tr class="overview last">
       <td colspan="3"><strong>Tests:</strong> 0<br></td>
@@ -80,7 +80,7 @@
             <li>
                 <span class="error">&#10006;</span>
 
-              Testing if element [0;33m&lt;Element [name&#x3D;@questionHyperlink]&gt;[0m contains text [0;33m&#x27;REST Api&#x27;[0m in 5000ms - expected [0;32m&quot;contains text &#x27;REST Api&#x27;&quot;[0m but got: [0;31m&quot;element could not be located&quot;[0m [0;90m(5107ms)[0m
+              Testing if element [0;33m&lt;Element [name&#x3D;@questionHyperlink]&gt;[0m contains text [0;33m&#x27;REST Api&#x27;[0m in 5000ms - expected [0;32m&quot;contains text &#x27;REST Api&#x27;&quot;[0m but got: [0;31m&quot;element could not be located&quot;[0m [0;90m(5139ms)[0m
 
                 Expected &quot;contains text &#x27;REST Api&#x27;&quot; but got: &quot;element could not be located&quot;
 
@@ -90,7 +90,7 @@
         <p>
             <span class="error"><strong>FAILED:</strong></span>
             <span class="error"><strong>1</strong></span> assertions failed and
-            <span class="success"><strong>0</span></strong> passed. (9.930s)
+            <span class="success"><strong>0</span></strong> passed. (8.908s)
         </p>
 
 

@@ -1,6 +1,7 @@
 module.exports = {
-'@tags':['NIH_Step3'],
-'RO, TTIPO, Medical, ORA Negotiated Reviews'(browser){
+    '@disabled': true,
+    '@tags':['NIH_Step3'],
+    'RO, TTIPO, Medical, ORA Negotiated Reviews':function(browser){
     browser
     .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
     .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
@@ -18,7 +19,7 @@ module.exports = {
    .click('#btnButton2')
    .pause(10)
 },
-    'Step 1'(browser){
+    'Step 1':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
@@ -47,7 +48,7 @@ module.exports = {
 
     },
 
-    'Step 2'(browser){
+    'Step 2':function(browser){
 
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
@@ -68,7 +69,7 @@ module.exports = {
         
     },
 
-    'Step 3 num 57'(browser){
+    'Step 3 num 57':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
@@ -88,7 +89,7 @@ module.exports = {
     },
 
     
-    'Step 4'(browser){
+    'Step 4':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
@@ -108,7 +109,7 @@ module.exports = {
     },
 
     
-    'Step 5'(browser){
+    'Step 5':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
@@ -127,7 +128,7 @@ module.exports = {
            .pause(10000)
     },
 
-    'Step 6'(browser){
+    'Step 6':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')

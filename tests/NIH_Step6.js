@@ -1,6 +1,7 @@
 module.exports = {
+    '@disabled': true,
     '@tags':['NIH_Step6'],
-    'QA Prepare, DAIT Sign, Send'(browser){
+    'QA Prepare, DAIT Sign, Send':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .setvalue('#otds_username', 'testlivelink3')
@@ -20,7 +21,7 @@ module.exports = {
             
     },
 
-    'NIH Step 6.2'(browser){
+    'NIH Step 6.2':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink7')
@@ -38,7 +39,7 @@ module.exports = {
         .pause(10000)
     },
 
-    'NIH Step 6.3'(browser){
+    'NIH Step 6.3':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
@@ -54,7 +55,7 @@ module.exports = {
          
         try{
             browser
-            .accpetAlert()
+            .acceptAlert()
 
         }
 
@@ -66,7 +67,7 @@ module.exports = {
         }
     },
 
-    'NIH Step 6.4'(browser){
+    'NIH Step 6.4':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
@@ -91,7 +92,7 @@ module.exports = {
 
     },
 
-    'NIH Step 6.5'(browser){
+    'NIH Step 6.5':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
         .setvalue('#otds_username', 'testlivelink1')
@@ -106,7 +107,7 @@ module.exports = {
         .useCss()
         try{
             browser
-                .accpetAlert()
+                .acceptAlert()
         }
         
         finally{

@@ -1,6 +1,7 @@
 module.exports = {
+    '@disabled': true,
     '@tags':['NIH_Step2'],
-    'RO, TTIPO, Medical, ORA Draft Assignments'(browser){
+    'RO, TTIPO, Medical, ORA Draft Assignments':function(browser){
         browser
         .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso')
             .assert.visible('input[id="otds_username"]', 'input[id="otds_password"')
@@ -25,7 +26,7 @@ module.exports = {
 
            
         },
-    'NIH Step 2' (browser){
+    'NIH Step 2':function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso') // NoSSO URL
             .setValue('input[id="otds_username"]', ['testlivelink4'])
@@ -61,7 +62,7 @@ module.exports = {
 
     },
     
-    'NIH Step 4' (browser){
+    'NIH Step 4':function (browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll?otdsauth=no-sso') //NoSSOURL
             .url()

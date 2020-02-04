@@ -1,4 +1,5 @@
 module.exports = {
+    '@disabled': true,
     '@tags':['Supreme'],
     'Supreme' : function(browser) {
        

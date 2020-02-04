@@ -11,6 +11,7 @@ module.exports = {
             .navigate()
             .login()
             .clickHotTab()
+            .perform(() => {debugger;})
             .setValue('@searchbar', [searchTerm, browser.Keys.ENTER]) 
             .assert.containsText('@questionHyperlink', text)
             .clickTopQuestion()

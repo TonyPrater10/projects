@@ -61,36 +61,83 @@
       <td colspan="3" title="CHROME 79.0.3945.130 Mac OS X "><strong>Browser:</strong> CHROME 79.0.3945.130 Mac OS X </td>
     </tr>
     <tr class="overview">
-      <td colspan="3"><strong>Timestamp:</strong> Thu Jan 30 2020 11:52:34 GMT-0500 (Eastern Standard Time)</td>
+      <td colspan="3"><strong>Timestamp:</strong> Thu Jan 30 2020 15:57:21 GMT-0500 (Eastern Standard Time)</td>
     </tr>
     <tr class="overview last">
       <td colspan="3"><strong>Tests:</strong> 0<br></td>
     </tr>
     <tr>
-      <td class="pass"><strong>0</strong> passed</td>
-      <td class="skip"><strong>13</strong> errors</td>
-      <td class="fail"><strong>1</strong> failures</td>
+      <td class="pass"><strong>8</strong> passed</td>
+      <td class="skip"><strong>0</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
     </tr>
   </table>
 
-      <h2>SO</h2>
+      <h2>StackOverflow</h2>
 
-        <h3>new SO</h3>
+        <h3>Test StackOverflow Search</h3>
         <ul class="assertions">
             <li>
-                <span class="error">&#10006;</span>
+                <span class="success">&#10004;</span>
 
-              Testing if element [0;33m&lt;Element [name&#x3D;@questionHyperlink]&gt;[0m contains text [0;33m&#x27;REST Api&#x27;[0m in 5000ms - expected [0;32m&quot;contains text &#x27;REST Api&#x27;&quot;[0m but got: [0;31m&quot;element could not be located&quot;[0m [0;90m(5107ms)[0m
+              Element &lt;body&gt; was visible after 23 milliseconds.
 
-                Expected &quot;contains text &#x27;REST Api&#x27;&quot; but got: &quot;element could not be located&quot;
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the page title contains [0;33m&#x27;Stack Overflow - Where Developers Learn, Share, &amp; Build&#x27;[0m [0;90m(9ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;input[type&#x3D;text]&gt;[0m is visible [0;90m(30ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;#mainbar&gt; was visible after 24 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;#question-summary-12135309&gt;[0m contains text [0;33m&#x27;REST API&#x27;[0m [0;90m(39ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Element &lt;body&gt; was visible after 19 milliseconds.
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;#mainbar&gt;[0m contains text [0;33m&#x27;Top Questions&#x27;[0m [0;90m(489ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;#nav-users&gt;[0m is visible [0;90m(18ms)[0m
+
 
             </li>
         </ul>
 
         <p>
-            <span class="error"><strong>FAILED:</strong></span>
-            <span class="error"><strong>1</strong></span> assertions failed and
-            <span class="success"><strong>0</span></strong> passed. (9.930s)
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>8</strong></span> assertions passed. (19.83s)
         </p>
 
 

@@ -1,6 +1,7 @@
 module.exports = {
+    '@disabled': true,
     '@tags': ['NIH_Step1'],
-    'GenerateAgreements'(browser){
+    'GenerateAgreements': function(browser){
         browser
             .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll/open/daitctadashboard')
             .useXpath()
@@ -21,7 +22,7 @@ module.exports = {
        
         },
         
-        'Step 2' (browser){
+        'Step 2': function(browser){
 
             browser
                 .url('https://edrms-qa.niaid.nih.gov/livelink/llisapi.dll/open/daitctadashboard')
